@@ -1,0 +1,44 @@
+body{
+background-image: url(/midia/CORFUNDO.jpg);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0px;
+background-color: rgb(0,0,0,0.75);
+background-blend-mode: darken;
+
+}
+
+.img{
+    align-items: center;
+    text-align: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 20px; 
+    padding: 20px;
+    margin-top: 50px;
+    
+}
+
+.item {
+    background-color: transparent;
+    padding: 20px;
+    color: beige;
+    text-align:left;
+    align-items: left;
+   
+}
+
+.text{
+    font-size: 25px;
+    background-color: transparent;
+    padding: 20px;
+    color: beige;
+    text-align: left;
+    align-items: left;
+}
